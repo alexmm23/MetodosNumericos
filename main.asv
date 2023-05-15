@@ -101,7 +101,7 @@ function secante()
         x2 = xi;
         i = i+1;
     end
-    fprintf('\nRaíz de la función=%12.6f\nCalculada en%4d iteraciones\n', xi, i);
+    fprintf('\n')
 end
 
 function muller()
